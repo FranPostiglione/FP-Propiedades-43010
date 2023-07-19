@@ -1,0 +1,33 @@
+@media (min-widht: 992px) {}
+
+
+BOOTSTRAP
+Librerias y frameswork
+
+Bootstrap
+Framework desarrollado por twitter con interfaces de css y javascript
+Carac. ventajas:
+Es la mas generica
+Es responsive
+Maqueta por columna se integra muy bien con JS
+Te permite enriquecer aun mas los estilos de la web
+
+Desventajas:
+Problemas de adaptacion
+Mucho CSS que no se va a usar
+Mucho uso de clases
+Añadir componentes
+Requiere mucho mantenimiento, sobre todo si hay cambios
+
+Lo vamos a trabajar linkeado pero la razon por la que se descarga es para trabajar offline con
+el framework o por si se cae la pagina.
+
+Para linkear: Vamos a introduccion y en la parte de css y bundle copiamos el link y lo introducimos en
+todos nuestros css
+
+No hay que usarlo siempre sino solo para lo que nos sirve
+
+
+
+
+
