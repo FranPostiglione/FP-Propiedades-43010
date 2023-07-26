@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="../img/Logo blanco.png"></a>
+      <a href="../index.html"><img src="../img/Logo blanco.png"></a>
                             
         <nav>
             <!--Barra de navegación al lado del logo>--> 
@@ -22,42 +22,66 @@
                 </ul>       
             </nav>
     </header>
-      <main>
-    <section class="contacto-titulo">
-              <h1>¿Necesitas asesoramiento?¿Tenes dudas? No dudes en consultarnos</h1>
-    </section>
+    <section class="contact-hero">
+      <section class="img-hero">   
+          <div class="titulo-contact">  
+              <h1>CONTACTANOS</h1>
+          </div> 
+          <div class="subt-contact">
+            <h2>¿Necesitas asesoramiento?¿Tenes dudas? No dudes en consultarnos</h2>
+          </div>   
+        </section>     
+        <section class="contact-datos">
+              <div class="datos">
+                  <h2>FP Propiedades</h2>
+                  <img src="../img/ubicacion.png" alt=""><span>San Martin 141, Bs As</span>
+                  <img src="../img/telefono-movil.png" alt=""><span>1454-1234</span>
+                  <img src="../img/email.png" alt=""><span>Fp-propiedades@gmail.com</span>        
+              </div>
+              <div class="mapa">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1111.9775658444917!2d-57.59891836349977!3d-37.97368672110491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d91a17b3b6f3%3A0x70e77d97de935a24!2sSan%20Mart%C3%ADn!5e0!3m2!1ses!2sar!4v1689828291620!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </section>
           <section class="contact-form">
-            <div class="ventanas-form">
-              <label for="Nombre">Nombre</label>
-              <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
-            </div>
-            <div class="ventanas-form">
-              <label for="Nombre">E-mail</label>
-              <input type="email" name="correo" id="correo" placeholder="Ingrese su Email">
-            </div>
-            <div class="ventanas-form">
-              <label for="Nombre">Celular</label>
-              <input type="text" name="nombre" id="nombre" placeholder="Ingrese su celular">
-            </div>
-            <div class="ventanas-form">
-              <label for="Nombre">Asunto</label>
-              <input type="text" name="nombre" id="nombre" placeholder="Motivo de la consulta">
-            </div>
-            <div class="mensaje-form">                   
-              <textarea class="ventanas-form" name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-            </div>              
-            <div class="ventanas-form">
-              <input type="submit">
-            </div>
-            </section>
-          
-    </main>
-    </body>
-        <footer id="contacto">
-            <div>
+              <div class="titulo-form">
+                <h3>Si aún tenes dudas, escribinos.</h3>
+              </div>
+              <div class="form-main">    
+                  <form class="form-form">
+                    <div class="form-group">
+                      <label for="Nombre" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" placeholder="Ingrese aqui su nombre...">
+                    </div>
+                    <div class="form-group">
+                      <label for="emailinput" class="form-control">Email</label>
+                      <input type="email" class="form-control" id="emailinput" placeholder="Ingrese aqui su nombre">
+                      </div>
+                    <div class="form-group">
+                      <label for="Nombre" class="form-label">Celular</label>
+                      <input type="text" class="form-control" placeholder="Ingrese su numero">
+                    </div>
+                    <div class="form-group">
+                      <label for="Nombre" class="form-label">Asunto</label>
+                      <input type="text" class="form-control" placeholder="Motivo de su consulta">
+                    </div>
+                    <div class="form-group">
+                      <label for="comentId" class="form-label">Consulta</label>
+                      <textarea id="comentId" class="form-control" placeholder="Escriba aqui su consulta"></textarea>
+                    </div>
+                    <div class="enviar-boton">
+                      <button type="submit" class="btn-muted fs-7" >Enviar</button>
+                 </div>
+                    </div>  
+                </section> 
+                </section>   
+                
+          </main>
+          </body>
+        <footer class="footer-contacto">
+            <div class="copyright">
                 <h3>Todos los derechos reservados.</h3>
             </div>    
-        <div>     
+        <div class="redes-footer">
             <a href="https://instagram.com" target="_blank"><img src="../img/instagram.png" alt="instagram"></a>
         <a href="https://web.whatsapp.com/" target="_blank"><img src="../img/whatsapp-icono.png" alt="whatsapp"></a>
         <a href="https://facebook.com" target="_blank"><img src="../img/facebook.png" alt="facebook"></a>
