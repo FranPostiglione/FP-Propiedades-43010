@@ -589,7 +589,7 @@ footer div {
     align-items: center;
 }
 
-
+/*MEDIA QUERY*/
 
 @media screen and (max-width:1233px) {
     .hero h2  {
@@ -806,7 +806,7 @@ footer div {
     
     .img-familia img {
         width: 450px;
-        height: 300px;
+        height: 350px;
     }
     
     .img-bolsillo p {
@@ -850,6 +850,23 @@ footer div {
 
 
 @media screen and (max-width:460px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    header ul li a {
+        font-size: 15px;
+    }
+
 .hero {    
     height: calc(100vh - 115px);   
     background-image: url(../img/posible-fondo2.jpg);
@@ -857,11 +874,11 @@ footer div {
 
 .img-familia img {
     width: 350px;
-    height: 200px;
+    height: 250px;
 }
 .img-bolsillo img {
     width: 350px;
-    height: 200px; 
+    height: 250px; 
 }
 
 footer .redes-footer img{
@@ -876,7 +893,7 @@ footer .redes-footer img{
         grid-template-rows: repeat(3,1fr);
         grid-auto-rows: 470px;
         margin-left: 8%; } 
-}}}}
+}
 
 @media screen and (max-width:401px) {
     .novedades {
