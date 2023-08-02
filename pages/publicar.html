@@ -3,44 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Publicar</title>
 </head>
-<body>
-    <header>
-        <a href="../index.html"><img src="../img/Logo blanco.png"></a>
-                            
-        <nav>
-            <!--Barra de navegación al lado del logo>--> 
-                <ul> 
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="publicar.html">Publicar</a></li>
-                    <li><a href="busqueda.html">Busqueda</a></li>
-                    <li><a href="Novedades.html">Novedades</a></li>
-                    <li><a href="./contactos.html">Contactanos</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li> 
-                </ul>       
-            </nav>
+<body class="-bs-light">
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="./index.html"><img src="../img/2do logo png.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav bg-body-primary">
+                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="./publicar.html">Publicar</a>
+                <a class="nav-link" href="./busqueda.html">Busqueda</a>
+                <a class="nav-link" href="./novedades.html">Novedades</a>
+                <a class="nav-link" href="./contactos.html">Contactanos</a>
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="publicar-general">
-        <section class="publicar">
-            <div class="titulo-publicar">
-                <h1>¿Sos propietario?</h1>
-                <h2>Vendé o alquilá tu propiedad en RH Propiedades</h2>
-                <p>Publica tu aviso aqui con todos los detalles</p>
-                <p>Tenemos miles de visitas mensuales en nuestro sitio web</p>
-                <p>Cargá informacion, fotos y videos de la propiedad que quieras publicar</p>
-                <p>Te garantizamos una garantia tanto para alquiler como para venta</p>
-                <input type="submit">
+    <section class="publicar">
+        <div class="titulo-publicar">
+            <h1>¿Sos propietario?</h1>
+            <h2>Vendé o alquilá tu propiedad en FP Propiedades</h2>
+            <h3>FP propiedades te ofrece el espacio para publicar tu propiedad. Contamos con miles de visitas diarias. Ayudandote a darte visibilidad ante los compradores. Brindandote la confianza que te mereces</h3>
             </div>
-        </section>
-        </section>
+        <section>
+            <div class="menu-publicar">
+                <div class="mb-3 fs-5">
+                <select class="" id=""> 
+                    <option value="1">Departamento</option>
+                    <option value="2">PH</option>
+                    <option value="3">Casa</option>
+                    <option value="4">Quinta</option>
+                </select>
+                </div>
+                <div class="mb-3 fs-5">
+                <select name="" id=""> Dormitorios
+                    <option value="">1 dormitorio</option>
+                    <option value="">2 dormitorios</option>
+                    <option value="">3 dormitorios</option>
+                    <option value="">4 dormitorios</option>
+                    <option value="">5 dormitorios+</option>
+                </select>     
+                </div>
+                <div class="mb-3 fs-5">
+                    <select>
+                        <option value="">Compra</option>
+                        <option value="">Alquiler</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-dark fs-7 ">Publicar</button>
+                </div>
+        </section>        
+    </section>
     </main>
-    
-    
-    
-    
     <footer id="contacto">
         <div class="copyright">
             <h3>Todos los derechos reservados.</h3>
@@ -51,5 +74,6 @@
         <a href="https://facebook.com" target="_blank"><img src="../img/facebook.png" alt="facebook"></a>
     </div>        
 </footer>      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
 </body>
 </html>

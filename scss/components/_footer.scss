@@ -1,0 +1,25 @@
+/*FOOTER*/
+
+
+footer {
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright  h3{
+    padding-left: 10px;
+    font-family: 'Mate SC', serif;
+    font-size: 15px;
+    color: #0E0E10;
+}
+
+footer .redes-footer img {
+    height: 40px;
+    width: 40px;    
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}

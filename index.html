@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <!--<link rel="stylesheet" href="./css/style.css">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
     <title>FP Propiedades-Home</title>
     
 </head>
-<body>
-    <header>
-        <a href="../index.html"><img src="./img/Logo blanco.png"></a>
-                            
-        <nav>
-            <!--BARRA DE NAVEGACION AL LADO DEL LOGO--> 
-                <ul> 
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/publicar.html">Publicar</a></li>
-                    <li><a href="pages/busqueda.html">Busqueda</a></li>
-                    <li><a href="pages/novedades.html">Novedades</a></li>
-                    <li><a href="pages/contactos.html">Contactanos</a></li>
-                    <li><a href="pages/nosotros.html">Nosotros</a></li> 
-                </ul>       
-            </nav>
-    </header>
+<body class="-bs-light">
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="./index.html"><img src="./img/2do logo png.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav bg-body-primary">
+              <a class="nav-link" href="../index.html">Home</a>
+              <a class="nav-link" href="./pages/publicar.html">Publicar</a>
+              <a class="nav-link" href="./pages/busqueda.html">Busqueda</a>
+              <a class="nav-link" href="./pages/novedades.html">Novedades</a>
+              <a class="nav-link" href="./pages/contactos.html">Contactanos</a>
+              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
     <main>
         <!--HERO SECTION-->
         <section class="hero">
@@ -50,7 +56,9 @@
             </div>
         </section>
         <!-- VENTANAS PROPIEDAS CON FOTOS -->
-        <div class="cartel-novedades"><h2>NOVEDADES</h2></div>        
+        <div class="cartel-novedades">
+            <h2>NOVEDADES</h2>
+        </div>        
         <section class="novedades">
                 <div class="destacado-img">
                     <img src="./img/interior 1.jpg" alt="">
@@ -146,5 +154,6 @@
             <a href="https://facebook.com" target="_blank"><img src="./img/facebook.png" alt="facebook"></a>
         </div>        
     </footer> 
-       </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>   
+</body>
 </html>

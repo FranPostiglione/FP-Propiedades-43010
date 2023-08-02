@@ -34,7 +34,7 @@ header ul {
     }   
 
 header nav ul li {
-    display: inline-block;;
+    display: inline-block;
         }
 
     header nav ul li a {
@@ -88,16 +88,6 @@ main    {
 
 }
 
-.hero .empresa {
-    text-align: center;
-    font-family: 'Optima', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    }   
-
 .ver-mas a{
     padding: 10px 10px 11px 7px;
     font-size: 20px;
@@ -116,7 +106,6 @@ main    {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     }
 
 .img-familia p {
@@ -177,7 +166,7 @@ main    {
     text-align: center;
     text-shadow: 10px black;
     list-style: none;
-    margin-left: 7%;
+    margin-left: 22%;
               
     }
 .novedades div img {
@@ -281,6 +270,53 @@ main    {
 /*CONTENIDO MAIN */
 
 
+
+
+/*direccion celular y mail */
+
+
+.contact-datos {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E0E0E0;
+}
+
+
+.datos {
+    font-family: 'Mate SC', serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.datos img {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    opacity: 100%;
+    margin-left: 10px;
+}
+
+.titulo-form {
+    padding-top: 30px;
+}
+
+.form-main {
+    border: solid 3px black;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #DEE5E5;
+    width: 25%;
+    box-shadow: -1px 3px 38px -3px rgba(0,0,0,0.49);
+    -webkit-box-shadow: -1px 3px 38px -3px rgba(0,0,0,0.49);
+    -moz-box-shadow: -1px 3px 38px -3px rgba(0,0,0,0.49);
+}
+
 .contact-form { 
 
     background-color: white;
@@ -299,62 +335,6 @@ main    {
     align-items: center;
 }
 
-/*direccion celular y mail */
-
-
-.contact-datos {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #E0E0E0;
-}
-
-.titulo-datos h2 {
-    text-align: center;
-    font-family: 'Mate SC', serif;
-}
-
-
-
-.datos {
-    font-family: 'Mate SC', serif;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-.titulo-form {
-    padding-top: 30px;
-}
-
-.datos img {
-    display: inline-flex;
-    width: 30px;
-    height: 30px;
-    opacity: 100%;
-    margin-left: 10px;
-}
-
-.mapas {
-    display: inline-flex;
-}  
-
-.form-main {
-    border: solid 3px black;
-    border-radius: 5px;
-    margin-top: 40px;
-    padding: 40px;
-    background-color: #DEE5E5;
-    width: 25%;
-    box-shadow: -1px 3px 38px -3px rgba(0,0,0,0.49);
-    -webkit-box-shadow: -1px 3px 38px -3px rgba(0,0,0,0.49);
-    -moz-box-shadow: -1px 3px 38px -3px rgba(0,0,0,0.49);
-    
-
-}
 .form-group {
     display: flex;
     justify-content: center;
@@ -402,22 +382,17 @@ main    {
     display: grid;
 }
 
-.novedades-cajas {
-    border: solid 1px black;
-    margin-bottom: 5px;
-}
-
 .novedades-h1 h1{
     display: flex;
     justify-content: center;
 }
-.novedades-pestaña .novedades-cajas {
-       
-    display: flex;
-    /*border: solid 2px black;*/
-    border-radius: 10px;
-    }
 
+.novedades-cajas {
+    border: solid 1px black;
+    margin-bottom: 5px;
+    display: flex;
+    border-radius: 10px;
+}
 
 .novedades-pestaña img {
     padding-right: 1px;
@@ -460,6 +435,7 @@ main    {
 .novedades-cajas .boton-posicion {
     display: flex;
     align-items: end;
+
 } 
 
 /*NOSOTROS*/
@@ -538,25 +514,61 @@ main    {
 
 .publicar {
     color: white;
-    font-size: 20px;
-    font-family: 'Mate SC', serif;
     text-shadow: 4px 4px 4px black;;
     height: calc(100vh - 215px);
     background-image: url(../img/publicar-fondo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
     
 }
 
 .titulo-publicar {
-    list-style: none;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
+    margin-top: 30px;
+    padding-bottom: 5%;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
+.titulo-publicar h1 {
+    align-content: center;
+    font-size: 100px;
+
+}
+
+.titulo-publicar h2 {
+    font-size: 60px;
+
+
+}
+
+.titulo-publicar h3 {
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+
+.titulo-publicar {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.menu-publicar {
+    display: inline-flex;
+    border: solid 2px black;
+    align-items: center;
+    justify-content: center;
+}
 
 
 .boton-publicar {
@@ -590,6 +602,8 @@ footer div {
 }
 
 /*MEDIA QUERY*/
+
+/*INDEX*/
 
 @media screen and (max-width:1233px) {
     .hero h2  {
@@ -768,7 +782,8 @@ footer div {
 }
 }
 @media screen and (max-width:690px) {
-        /*HEADER*/
+
+    /*HEADER*/
      
 }
 
@@ -901,14 +916,14 @@ footer .redes-footer img{
         grid-template-rows: repeat(3,1fr);
         grid-auto-rows: 470px;
         margin-left: 5%; } 
-
+    }
 @media screen and (max-width:401px) {
     .novedades {
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(3,1fr);
         grid-auto-rows: 470px;
-        margin-left: 2%; } }}
-
+        margin-left: 2%; } 
+    }
 
 /*Contacto*/
 @media screen and (max-width:1255px) {
