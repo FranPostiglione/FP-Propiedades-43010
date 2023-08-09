@@ -1,7 +1,67 @@
 
 
-$color-primario: black;
+$color-primario: #212529;
 $color-secundario: #E0E0E0;
 $color-terciario: #DEE5E5;
 $color-cuaternario: white;
 $color-quinario: #0E0E10;
+$color-sextario: #AAACB0;
+$color-septenario: #393D39;
+
+/*LISTAS*/
+$paleta-colores:
+#212529,
+#E0E0E0,
+#DEE5E5,
+#0E0E10,
+#AAACB0;
+
+$font-size:
+12px,
+15px,
+25px,
+50px,
+100px;
+
+h3{
+    color: nth($paleta-colores,1)
+}
+
+
+
+/*MIXIN*/
+
+@mixin flex ($flex, $direction, $justify, $align) {
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+main .busqueda-fondo {
+    @include flex (flex, column, space-evenly, start)
+    }
+
+main .contact-hero .img-hero {
+    @include flex (flex, column, space-evenly, center)
+}
+
+main .contact-form {
+    @include flex (flex, column, center,center)
+}
+
+/*MAPAS*/
+$boton:(
+bg-boton: #DEE5E5,
+border-boton: 1px solid,
+color-text: #212529,
+border-radius: 10px,
+);
+
+.ver-mas{
+    background-color: map-get($boton, bg-boton);
+
+    border: map-get($boton, border-boton);
+
+    border-radius: map-get($boton, border-radius)
+}

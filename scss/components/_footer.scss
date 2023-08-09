@@ -5,6 +5,7 @@ footer {
     background-color: #E0E0E0;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .copyright  h3{
@@ -16,7 +17,9 @@ footer {
 
 footer .redes-footer img {
     height: 40px;
-    width: 40px;    
+    width: 40px;
+    transition: 1s;   
+
 }
 
 footer div {

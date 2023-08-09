@@ -512,7 +512,7 @@ main    {
 
 
 
-.publicar {
+main .publicar {
     color: white;
     text-shadow: 4px 4px 4px black;;
     height: calc(100vh - 215px);
