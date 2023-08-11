@@ -24,6 +24,7 @@ main{
                     align-items: center;
                     flex-direction: column;
                     font-size: 115px;
+                    
             }
                 p {
                     font-size: 63px;
@@ -33,7 +34,8 @@ main{
 .ver-mas {
             margin-top: 10px ;
             margin-bottom: 3%;
-        a {
+        a 
+            {
             font-size: 18px;
             font-family: 'Mate SC', serif;
             text-decoration: none;
@@ -74,6 +76,8 @@ main{
                 font-family: 'Mate SC', serif;
                 font-size: 40px;
                 text-align: center;
+                margin-left: 15px;
+                margin-right: 15px;
             }    
         
 }
@@ -95,6 +99,8 @@ main{
                 text-align: center;
                 display: flex;
                 justify-content: flex-start;
+                margin-left: 20px;
+                margin-right: 20px;
             }
         }
     }
@@ -113,18 +119,21 @@ main{
 .novedades {
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,1fr);
-        margin-bottom: 3%;
-        margin-left: 10%;
+        grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 12%;
         margin-right: 10%;
         grid-column: span 1;
         grid-row: span 1;
         transition: 1s;
+        row-gap: 75px;
+        column-gap: 50px;
+        
         
 
             .destacados-img{
                 font-family: 'Mate SC', serif;
-                margin: 10px;
                 padding-bottom: 20px;
                 width: 353px;
                 height: 520px;
@@ -135,7 +144,8 @@ main{
                 box-shadow: 10px 10px 29px 4px rgba(0,0,0,0.53);                
                 -webkit-box-shadow: 10px 10px 29px 4px rgba(0,0,0,0.53);
                 -moz-box-shadow: 10px 10px 29px 4px rgba(0,0,0,0.53);  
-                /*margin-top: 10%; */
+                
+                
                 transition: 1s; 
                 img{
                 width: 350px;
@@ -345,6 +355,7 @@ main{
                             -moz-box-shadow: -1px 3px 38px -11px rgba(0,0,0,0.54);
             }        
         .enviar-boton {
+                
             }
         
         .form-group textarea {
@@ -403,6 +414,7 @@ main {
                     display: flex;
                     align-items: start;
                     flex-direction: column;
+                    justify-content: center;
     
         
                         .img-carac {
@@ -477,7 +489,7 @@ main .hero-nosotros {
         .seriedad-p {
             p {
                 font-size: 30px;
-        }
+            }
         }
         .seriedad-img {
                 img{
@@ -499,7 +511,6 @@ main .hero-nosotros {
 }
     div {
         p {
-
         }
     }
     div {
@@ -520,7 +531,7 @@ main .hero-nosotros {
             align-items: center;
     div {
         p {
-
+            
         }
     }
 }
@@ -549,6 +560,7 @@ main .publicar{
             }
             p{
                 font-size: 35px;
+                padding: 20px;
             }
     }
 .menu-publicar {

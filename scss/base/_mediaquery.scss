@@ -893,7 +893,8 @@ main {
                 .boton-posicion {
                 display: flex;
                 margin-left: 10px;
-                
+                padding-right: 15px;
+                padding-bottom: 10px;
                 
                         a{
                             border-radius: 8px;
@@ -902,6 +903,7 @@ main {
                             text-decoration: none;
                             color: $color-cuaternario;
                             padding: 5px;
+                            
                             }
                         }
 }
@@ -952,7 +954,9 @@ main {
                  
                  h3{
                      font-size: 20px;
-                     margin-right: 100px;
+                     margin-left: 50px;
+                     
+                                         
                  }
              }
              .img-carac {
@@ -1013,11 +1017,11 @@ main {
             .precio{
                     h2 {
                         font-size: 15px;
-                        
+
                     }
             }
             .zona {
-                
+                align-items: start;
                 h3{
                     font-size: 15px;
                     margin-right: 100px;
@@ -1041,6 +1045,8 @@ main {
             .boton-posicion {
 
                 font-size: 12px;
+                padding-right: 15px;
+                padding-bottom: 10px;
             }
         }
 }
