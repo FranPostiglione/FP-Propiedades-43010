@@ -796,9 +796,25 @@ main {
 }
 
 /*NOVEDADES*/
+@media screen and (max-width: 1230px) {
+    main{
+        .novedades-h1 {
+            h1{
+                font-size: 60px;
+            }
+            } 
+        
+        }
+    }
+
 
 @media screen and (max-width: 900px) {
 main{
+    .novedades-h1{
+        h1{
+            font-size: 55px;
+        }
+    }
     .novedades-pestaña {
         .novedades-cajas{
             .data-list {
@@ -836,7 +852,10 @@ main{
 
 @media screen and (max-width: 847px) {
 main { 
-   .novedades-pestaña {
+    .novedades-h1 {
+        h1 {font-size: 45px;}
+    }
+    .novedades-pestaña {
         
             .novedades-cajas{
             border-radius: 5px;
@@ -913,9 +932,27 @@ main {
 }
 }
 
-
-@media screen and (max-width: 450px){
+@media screen and (max-width: 682px) {
     main { 
+        .novedades-h1 {
+            h1 {font-size: 35px;}
+        }
+    }
+    }
+
+@media screen and (max-width: 543px) {
+        main { 
+            .novedades-h1 {
+                h1 {font-size: 30px;}
+            }
+        }
+        }
+
+    @media screen and (max-width: 450px){
+    main { 
+        .novedades-h1 {
+            font-size: 25px;
+        }
         .novedades-pestaña {
              
                  .novedades-cajas{

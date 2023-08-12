@@ -93,9 +93,12 @@ main {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      font-size: 115px; }
+      font-size: 115px;
+      padding-top: 20px; }
     main .hero p {
-      font-size: 63px; }
+      font-size: 63px;
+      padding-left: 10px;
+      padding-right: 10px; }
     main .hero .ver-mas {
       margin-top: 10px;
       margin-bottom: 3%; }
@@ -355,7 +358,14 @@ main {
   font-family: 'Mate SC', serif; }
   main .novedades-h1 h1 {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    font-size: 80px;
+    border: solid 3px black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: 'Ysabeau SC', sans-serif; }
   main .novedades-pestaña {
     margin-left: 10%;
     margin-right: 10%;
@@ -378,6 +388,7 @@ main {
         align-items: start;
         flex-direction: column;
         justify-content: center;
+        margin-left: 20px;
         /*Cierre boton position*/ }
         main .novedades-pestaña .novedades-cajas .data-list .img-carac .caracteristicas-prop {
           display: flex;
@@ -952,7 +963,13 @@ footer div {
     font-size: 38px; } }
 
 /*NOVEDADES*/
+@media screen and (max-width: 1230px) {
+  main .novedades-h1 h1 {
+    font-size: 60px; } }
+
 @media screen and (max-width: 900px) {
+  main .novedades-h1 h1 {
+    font-size: 55px; }
   main .novedades-pestaña .novedades-cajas .data-list .precio h2 {
     font-size: 20px; }
   main .novedades-pestaña .novedades-cajas .data-list .zona h3 {
@@ -964,6 +981,8 @@ footer div {
     text-align: center; } }
 
 @media screen and (max-width: 847px) {
+  main .novedades-h1 h1 {
+    font-size: 45px; }
   main .novedades-pestaña .novedades-cajas {
     border-radius: 5px;
     margin-bottom: 5px;
@@ -1008,7 +1027,17 @@ footer div {
           color: white;
           padding: 5px; } }
 
+@media screen and (max-width: 682px) {
+  main .novedades-h1 h1 {
+    font-size: 35px; } }
+
+@media screen and (max-width: 543px) {
+  main .novedades-h1 h1 {
+    font-size: 30px; } }
+
 @media screen and (max-width: 450px) {
+  main .novedades-h1 {
+    font-size: 25px; }
   main .novedades-pestaña .novedades-cajas {
     border-radius: 5px;
     margin-bottom: 5px;
