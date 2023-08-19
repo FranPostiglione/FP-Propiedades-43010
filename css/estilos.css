@@ -1065,10 +1065,17 @@ footer div {
       main .novedades-pestaña .novedades-cajas .data-list .img-carac {
         display: flex;
         flex-direction: column; }
+        main .novedades-pestaña .novedades-cajas .data-list .img-carac .caracteristicas-prop img {
+          width: 20px;
+          height: 14px; }
         main .novedades-pestaña .novedades-cajas .data-list .img-carac .caracteristicas-prop span {
           font-size: 11px; }
       main .novedades-pestaña .novedades-cajas .data-list .data-info p {
-        font-size: 11px; } }
+        font-size: 11px; }
+      main .novedades-pestaña .novedades-cajas .data-list .boton-posicion {
+        margin-left: 10px !important;
+        padding-right: 20px !important;
+        padding-bottom: 10px; } }
 
 @media screen and (max-width: 450px) {
   main .novedades-h1 h1 {

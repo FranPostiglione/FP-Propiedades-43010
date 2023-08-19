@@ -1000,7 +1000,10 @@ main {
                      display: flex;
                      flex-direction: column;
                  .caracteristicas-prop{
-                     
+                         img{
+                            width: 20px;
+                            height: 14px;
+                         }                      
                          span{
                              font-size: 11px;
                          }
@@ -1012,6 +1015,11 @@ main {
                          font-size: 11px;
                      }
                  }
+                 .boton-posicion {
+                    margin-left: 10px !important;
+                    padding-right: 20px !important;
+                    padding-bottom: 10px;
+                }
      }
      }
      }
